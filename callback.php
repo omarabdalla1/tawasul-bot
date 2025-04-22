@@ -2,8 +2,8 @@
 session_start();
 
 if (isset($_GET['code'])) {
-    $client_id = "0c264d61-51ab-4281-b9e4-207c98f42ed1";
-    $client_secret = "a23a1c840b965e078168823486da1650";
+    $client_id = "20fd4a59-fc93-40d4-aec4-e3ff321f9378";
+    $client_secret = "33e332ba1938fc4b674a8537c28fae25";
     $redirect_uri = "https://tawasul-bot.onrender.com//callback.php";
     $code = $_GET['code'];
     
